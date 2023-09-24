@@ -7,13 +7,13 @@ msa-react-native-widget
 Install the library using either yarn or npm like so:
 
 ```sh
-yarn add @myserviceagent/msa-react-native-widget
+yarn add @msa-react-native-widget
 ```
 
 OR
 
 ```sh
-npm install --save @myserviceagent/msa-react-native-widget
+npm install --save @msa-react-native-widget
 ```
 
 This library depends on [react-native-webview](https://www.npmjs.com/package/react-native-webview) and [async-storage](https://github.com/react-native-async-storage/async-storage). Please follow the instructions provided in the docs.
@@ -37,7 +37,7 @@ import React, { useState } from 'react';
 
 import { StyleSheet, View, SafeAreaView, TouchableOpacity, Text } from 'react-native';
 
-import ChatWidget from '@myserviceagent/msa-react-native-widget';
+import ChatWidget from 'msa-react-native-widget';
 
 const App = () => {
   const [showWidget, toggleWidget] = useState(false);

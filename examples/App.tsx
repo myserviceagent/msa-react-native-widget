@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import ChatWidget from '@myserviceagent/msa-react-native-widget';
+import ChatWidget from 'msa-react-native-widget';
 
 import {
   SafeAreaView,

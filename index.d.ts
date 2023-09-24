@@ -1,4 +1,4 @@
-declare module '@myserviceagent/msa-react-native-widget' {
+declare module 'msa-react-native-widget' {
   import React from 'react';
 
   export interface ChatWidgetProps {
