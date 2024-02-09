@@ -1,6 +1,6 @@
 {
   "name": "msa-react-native-widget",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "React Native widget for myserviceagent engage crm",
   "main": "index.js",
    "scripts": {
@@ -14,7 +14,7 @@
     "@react-native-async-storage/async-storage": "1.18.2",
     "react": "*",
     "react-native": "*",
-    "react-native-webview": "^13.0.0"
+    "react-native-webview": "^13.6.2"
   },
   "devDependencies": {
     "@react-native-community/eslint-config": "^2.0.0",
