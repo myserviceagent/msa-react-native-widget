@@ -4,7 +4,7 @@ import {
   BG_COLOR_WHITE,
   BG_COLOR_DARK,
   COLOR_WHITE,
-  MSA_PREFIX,
+  CHAT_PREFIX,
   POST_MESSAGE_EVENTS,
 } from './constants';
 
@@ -18,12 +18,12 @@ export const isJsonString = (string) => {
 };
 
 export const createMSAPostMessage = (object) => {
-  const stringfyObject = `'${MSA_PREFIX}${JSON.stringify(object)}'`;
+  const stringfyObject = `'${CHAT_PREFIX}${JSON.stringify(object)}'`;
   const script = `window.postMessage(${stringfyObject});`;
   return script;
 };
 
-export const getMessage = (data) => data.replace(MSA_PREFIX, '');
+export const getMessage = (data) => data.replace(CHAT_PREFIX, '');
 
 export const generateScripts = ({ colorScheme, user, locale, customAttributes }) => {
   let script = '';
